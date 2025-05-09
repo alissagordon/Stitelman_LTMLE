@@ -1,7 +1,7 @@
 # Stitelman_LTMLE
 Toy model implementing the LTMLE methodology in Stitelman, et al (2012) Doi: 10.1515/1557-4679.1334
 
-The current LTMLE package employs the method of iterative conditional expectations. However, an alternative approach for TMLE of longitudinal data exists in this paper by instead targeting the entire likelihood of the data. This approach has the estimation benefits over the ICE approach, but code that implements it is not readily available. The purpose of this repository is to demonstrate how one may employ the likelihood approach of LTMLE. While we only code this approach for three time points (t=3), it is a good starting point for those who may be interested in using this methodology. 
+The current LTMLE package employs the method of iterative conditional expectations. However, an alternative approach for TMLE of longitudinal data exists in this paper by instead targeting the entire likelihood of the data. This approach has estimation benefits over the ICE approach, but code that implements it is not readily available. The purpose of this repository is to demonstrate how one may employ the likelihood approach of LTMLE. While we only code this approach for three time points (t=3), it is a good starting point for those who may be interested in using this methodology. 
 
 Our approach and simulation results are available in the slides. While we do not employ the Markov assumption, it is heavily recommended under more timepoints and complex time-varying covariates. See the paper for more detailed explanation of the approach.
 
